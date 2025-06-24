@@ -1,10 +1,11 @@
 
 <!DOCTYPE html>
+
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <title>Complete Quiz App</title>
-  <style>
+<meta charset="utf-8"/>
+<title>Complete Quiz App</title>
+<style>
     body { font-family: sans-serif; padding: 20px; max-width: 600px; margin: auto; }
     .choice-button {
       display: block;
@@ -22,14 +23,12 @@
   </style>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/jspdf/2.5.1/jspdf.umd.min.js"></script>
 </head>
-<body>
-
+<body><header style="display: flex; align-items: center; padding-bottom: 10px;"><img alt="Premier Inn Logo" src="premier-inn-logo.jpg" style="height: 120px;"/></header>
 <h2 id="question-number">Question</h2>
 <p id="question">Loading...</p>
 <div id="choices"></div>
 <div id="result"></div>
 <p id="progress">Progress: 0 / 0 | ✅ Correct: 0 | ❌ Wrong: 0</p>
-
 <button onclick="nextQuestion()">Next</button>
 <button onclick="resetQuiz()">Reset</button>
 <button onclick="shuffleAndRestart()">🔀 Shuffle</button>
@@ -38,7 +37,6 @@
 <button onclick="loadProgress('save1')">Load 1</button>
 <button onclick="loadProgress('save2')">Load 2</button>
 <button id="exportPdfBtn" onclick="downloadWrongAnswers()">📄 Export Wrong Answers</button>
-
 <script src="questions.js"></script>
 <script>
 let quizData = [];
@@ -109,21 +107,26 @@ function shuffleAndRestart() {
 }
 
 function saveProgress(slot) {
-  localStorage.setItem("quiz_save_" + slot, JSON.stringify({ current, wrongAnswers }));
+  localStorage.setItem("quiz_save_" + slot, JSON.stringify({
+    current,
+    wrongAnswers,
+    correctCount,
+    totalAnswered
+  }));
   alert("Progress saved to " + slot);
 }
 
 function loadProgress(slot) {
-  totalAnswered = 0;
-  correctCount = 0;
   const saved = localStorage.getItem("quiz_save_" + slot);
   if (saved) {
     const data = JSON.parse(saved);
     current = data.current;
     wrongAnswers = data.wrongAnswers || [];
+    correctCount = data.correctCount || 0;
+    totalAnswered = data.totalAnswered || 0;
     document.getElementById("result").textContent = "";
     updateProgressBar();
-  loadQuestion();
+    loadQuestion();
   } else {
     alert("No save found in " + slot);
   }
@@ -142,7 +145,6 @@ window.onload = function () {
 </script>
 </body>
 </html>
-
 <script>
 function updateProgressBar() {
   const wrongCount = totalAnswered - correctCount;
@@ -150,7 +152,6 @@ function updateProgressBar() {
     `Progress: ${totalAnswered} / ${quizData.length} | ✅ Correct: ${correctCount} | ❌ Wrong: ${wrongCount}`;
 }
 </script>
-
 <script>
 function downloadWrongAnswers() {
   const { jsPDF } = window.jspdf;
