@@ -40,16 +40,6 @@ const quizDataFromFile = [
     ]
   },
   {
-    "question": "aufhören",
-    "correct": "to end",
-    "choices": [
-      "to eat",
-      "together",
-      "to get up",
-      "to end"
-    ]
-  },
-  {
     "question": "aufstehen",
     "correct": "to get up",
     "choices": [
@@ -57,16 +47,6 @@ const quizDataFromFile = [
       "would like to",
       "to stay overnight",
       "to buy"
-    ]
-  },
-  {
-    "question": "aufstehen",
-    "correct": "to get up",
-    "choices": [
-      "to be able to",
-      "to get up",
-      "happy",
-      "to be okay"
     ]
   },
   {
@@ -161,32 +141,12 @@ const quizDataFromFile = [
   },
   {
     "question": "bekommen",
-    "correct": "to receive",
+    "correct": "to receive/to have/to get",
     "choices": [
       "to mean",
       "to stay",
-      "to receive",
+      "to receive/to have/to get",
       "to take with"
-    ]
-  },
-  {
-    "question": "bekommen",
-    "correct": "to have",
-    "choices": [
-      "to eat",
-      "to come",
-      "to lie / be located",
-      "to have"
-    ]
-  },
-  {
-    "question": "bekommen",
-    "correct": "to get",
-    "choices": [
-      "to lie / be located",
-      "to get",
-      "to come with",
-      "at/in the back"
     ]
   },
   {
@@ -217,16 +177,6 @@ const quizDataFromFile = [
       "to wash",
       "to hear",
       "to order"
-    ]
-  },
-  {
-    "question": "bestellen",
-    "correct": "to order",
-    "choices": [
-      "to be",
-      "to explain",
-      "to order",
-      "to have (food/drink)"
     ]
   },
   {
@@ -280,16 +230,6 @@ const quizDataFromFile = [
     ]
   },
   {
-    "question": "bleiben",
-    "correct": "to stay",
-    "choices": [
-      "to play",
-      "to look / search for",
-      "to stay",
-      "happy"
-    ]
-  },
-  {
     "question": "brauchen",
     "correct": "to need",
     "choices": [
@@ -301,22 +241,12 @@ const quizDataFromFile = [
   },
   {
     "question": "bringen",
-    "correct": "to bring",
+    "correct": "to bring/to take",
     "choices": [
       "to print",
-      "to bring",
+      "to bring/to take",
       "to put",
       "to drink"
-    ]
-  },
-  {
-    "question": "bringen",
-    "correct": "to take",
-    "choices": [
-      "to ask",
-      "to take",
-      "to go",
-      "to get to know"
     ]
   },
   {
@@ -386,26 +316,6 @@ const quizDataFromFile = [
       "to dance",
       "to fly",
       "to love",
-      "to be allowed"
-    ]
-  },
-  {
-    "question": "dürfen",
-    "correct": "to be allowed",
-    "choices": [
-      "to work/function",
-      "between",
-      "to be absent",
-      "to be allowed"
-    ]
-  },
-  {
-    "question": "dürfen",
-    "correct": "to be allowed",
-    "choices": [
-      "to be able to",
-      "to write",
-      "to be absent",
       "to be allowed"
     ]
   },
@@ -531,21 +441,11 @@ const quizDataFromFile = [
   },
   {
     "question": "fehlen",
-    "correct": "to be absent",
+    "correct": "to be absent/to be missing",
     "choices": [
       "to tell",
       "to sleep",
-      "to be absent",
-      "to order"
-    ]
-  },
-  {
-    "question": "fehlen",
-    "correct": "to be missing",
-    "choices": [
-      "to ask",
-      "to come with",
-      "to be missing",
+      "to be absent/to be missing",
       "to order"
     ]
   },
@@ -651,16 +551,6 @@ const quizDataFromFile = [
   },
   {
     "question": "gegen",
-    "correct": "into",
-    "choices": [
-      "into",
-      "to be",
-      "to speak",
-      "to wash"
-    ]
-  },
-  {
-    "question": "gegen",
     "correct": "against",
     "choices": [
       "to meet",
@@ -670,63 +560,13 @@ const quizDataFromFile = [
     ]
   },
   {
-    "question": "gegen",
-    "correct": "against",
-    "choices": [
-      "to know",
-      "to answer",
-      "against",
-      "to read"
-    ]
-  },
-  {
     "question": "gehen",
-    "correct": "to work/function",
+    "correct": "to work/function/to go/to be okay",
     "choices": [
       "to watch TV",
-      "to work/function",
+      "to work/function/to go/to be okay",
       "to be",
       "…"
-    ]
-  },
-  {
-    "question": "gehen",
-    "correct": "to go",
-    "choices": [
-      "one million",
-      "outside",
-      "to go",
-      "between"
-    ]
-  },
-  {
-    "question": "gehen",
-    "correct": "to go",
-    "choices": [
-      "to live",
-      "to go",
-      "upstairs",
-      "to have (food/drink)"
-    ]
-  },
-  {
-    "question": "gehen",
-    "correct": "to go",
-    "choices": [
-      "to say / tell",
-      "to go",
-      "…",
-      "would like to"
-    ]
-  },
-  {
-    "question": "gehen",
-    "correct": "to be okay",
-    "choices": [
-      "next to it",
-      "to cost",
-      "to shine",
-      "to be okay"
     ]
   },
   {
@@ -761,22 +601,12 @@ const quizDataFromFile = [
   },
   {
     "question": "glauben",
-    "correct": "to believe",
+    "correct": "to believe/to think",
     "choices": [
       "to answer",
       "against",
       "to be allowed",
-      "to believe"
-    ]
-  },
-  {
-    "question": "glauben",
-    "correct": "to think",
-    "choices": [
-      "to come",
-      "to get up",
-      "to think",
-      "to like"
+      "to believe/to think"
     ]
   },
   {
@@ -840,16 +670,6 @@ const quizDataFromFile = [
     ]
   },
   {
-    "question": "heißen",
-    "correct": "to be called",
-    "choices": [
-      "to work/function",
-      "together",
-      "to be called",
-      "to have"
-    ]
-  },
-  {
     "question": "helfen",
     "correct": "to help",
     "choices": [
@@ -881,22 +701,12 @@ const quizDataFromFile = [
   },
   {
     "question": "hören",
-    "correct": "to listen",
+    "correct": "to listen/to hear",
     "choices": [
       "to rent",
-      "to listen",
+      "to listen/to hear",
       "against",
       "to be absent"
-    ]
-  },
-  {
-    "question": "hören",
-    "correct": "to hear",
-    "choices": [
-      "to write",
-      "to hear",
-      "closed",
-      "to fetch"
     ]
   },
   {
@@ -950,16 +760,6 @@ const quizDataFromFile = [
     ]
   },
   {
-    "question": "kommen",
-    "correct": "to come",
-    "choices": [
-      "to tell",
-      "to come",
-      "to fill out",
-      "to print"
-    ]
-  },
-  {
     "question": "können",
     "correct": "to be able to",
     "choices": [
@@ -967,16 +767,6 @@ const quizDataFromFile = [
       "to join in",
       "to work/function",
       "to open"
-    ]
-  },
-  {
-    "question": "können",
-    "correct": "to be able to",
-    "choices": [
-      "to be able to",
-      "to get up",
-      "to think",
-      "to have"
     ]
   },
   {
@@ -1030,16 +820,6 @@ const quizDataFromFile = [
     ]
   },
   {
-    "question": "leben",
-    "correct": "to live",
-    "choices": [
-      "to get",
-      "to live",
-      "to be allowed",
-      "to meet"
-    ]
-  },
-  {
     "question": "legen",
     "correct": "to put",
     "choices": [
@@ -1081,16 +861,6 @@ const quizDataFromFile = [
   },
   {
     "question": "liegen",
-    "correct": "to lie",
-    "choices": [
-      "to play",
-      "to join in",
-      "to lie",
-      "to telephone"
-    ]
-  },
-  {
-    "question": "liegen",
     "correct": "to lie / be located",
     "choices": [
       "to lie / be located",
@@ -1101,42 +871,12 @@ const quizDataFromFile = [
   },
   {
     "question": "machen",
-    "correct": "to do",
+    "correct": "to do/to make/to come to",
     "choices": [
-      "to do",
+      "to do/to make/to come to",
       "to get",
       "to pay",
       "to find"
-    ]
-  },
-  {
-    "question": "machen",
-    "correct": "to make",
-    "choices": [
-      "to be",
-      "to play",
-      "to make",
-      "to have to"
-    ]
-  },
-  {
-    "question": "machen",
-    "correct": "to come to",
-    "choices": [
-      "to come with",
-      "to go shopping",
-      "to come to",
-      "to wash"
-    ]
-  },
-  {
-    "question": "machen",
-    "correct": "…",
-    "choices": [
-      "to close",
-      "upstairs",
-      "to be able to",
-      "…"
     ]
   },
   {
@@ -1231,22 +971,12 @@ const quizDataFromFile = [
   },
   {
     "question": "nehmen",
-    "correct": "to have (food/drink)",
+    "correct": "to have (food/drink)/to take",
     "choices": [
       "to stay",
       "to invite / treat",
-      "to have (food/drink)",
+      "to have (food/drink)/to take",
       "to want"
-    ]
-  },
-  {
-    "question": "nehmen",
-    "correct": "to take",
-    "choices": [
-      "to stop",
-      "to take",
-      "to lie",
-      "to get undressed"
     ]
   },
   {
@@ -1430,17 +1160,7 @@ const quizDataFromFile = [
     ]
   },
   {
-    "question": "sehen",
-    "correct": "to see",
-    "choices": [
-      "to see",
-      "to be called",
-      "…",
-      "to open"
-    ]
-  },
-  {
-    "question": "sein",
+    "question": "sein (er)",
     "correct": "his",
     "choices": [
       "to be (written)",
@@ -1457,16 +1177,6 @@ const quizDataFromFile = [
       "to put",
       "died",
       "to be called"
-    ]
-  },
-  {
-    "question": "sein",
-    "correct": "to be",
-    "choices": [
-      "to be",
-      "to meet",
-      "to be able to",
-      "to thank"
     ]
   },
   {
@@ -1490,16 +1200,6 @@ const quizDataFromFile = [
     ]
   },
   {
-    "question": "sollen",
-    "correct": "should",
-    "choices": [
-      "to pay",
-      "to put",
-      "to walk/run",
-      "should"
-    ]
-  },
-  {
     "question": "spielen",
     "correct": "to play",
     "choices": [
@@ -1507,16 +1207,6 @@ const quizDataFromFile = [
       "to stay overnight",
       "to travel",
       "one billion"
-    ]
-  },
-  {
-    "question": "spielen",
-    "correct": "to play",
-    "choices": [
-      "to play",
-      "to look forward",
-      "to wash",
-      "to get to know"
     ]
   },
   {
@@ -1531,22 +1221,12 @@ const quizDataFromFile = [
   },
   {
     "question": "stehen",
-    "correct": "to be (written)",
+    "correct": "to be (written)/to be (located)",
     "choices": [
       "to listen",
       "to lie",
-      "to be (written)",
+      "to be (written)to be (located)",
       "to (have a) barbecue"
-    ]
-  },
-  {
-    "question": "stehen",
-    "correct": "to be (located)",
-    "choices": [
-      "to get up",
-      "to be (located)",
-      "to thank",
-      "to shine"
     ]
   },
   {
@@ -1607,16 +1287,6 @@ const quizDataFromFile = [
       "to meet",
       "to sleep",
       "to be okay"
-    ]
-  },
-  {
-    "question": "(sich) treffen",
-    "correct": "to meet",
-    "choices": [
-      "to meet",
-      "to stay",
-      "to thank",
-      "to wash"
     ]
   },
   {
@@ -1750,16 +1420,6 @@ const quizDataFromFile = [
     ]
   },
   {
-    "question": "warten",
-    "correct": "to wait",
-    "choices": [
-      "to look / search for",
-      "to sleep",
-      "to need",
-      "to wait"
-    ]
-  },
-  {
     "question": "(sich) waschen",
     "correct": "to wash",
     "choices": [
@@ -1767,16 +1427,6 @@ const quizDataFromFile = [
       "to be allowed",
       "to wash",
       "to congratulate"
-    ]
-  },
-  {
-    "question": "(sich) waschen",
-    "correct": "to wash",
-    "choices": [
-      "to be able to",
-      "to tell",
-      "to understand",
-      "to wash"
     ]
   },
   {
@@ -1870,16 +1520,6 @@ const quizDataFromFile = [
     ]
   },
   {
-    "question": "zusammen",
-    "correct": "together",
-    "choices": [
-      "to be okay",
-      "together",
-      "to get dressed",
-      "to have"
-    ]
-  },
-  {
     "question": "zwischen",
     "correct": "between",
     "choices": [
@@ -1887,16 +1527,6 @@ const quizDataFromFile = [
       "between",
       "to go",
       "to know"
-    ]
-  },
-  {
-    "question": "zwischen",
-    "correct": "between",
-    "choices": [
-      "to come to",
-      "between",
-      "to wash",
-      "to travel"
     ]
   },
   {
@@ -1917,16 +1547,6 @@ const quizDataFromFile = [
       "to write",
       "to depart (by air)",
       "to rent out"
-    ]
-  },
-  {
-    "question": "eine Milliarde, -en",
-    "correct": "one billion",
-    "choices": [
-      "outside",
-      "to put",
-      "to travel",
-      "one billion"
     ]
   },
   {
